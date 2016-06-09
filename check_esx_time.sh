@@ -1,5 +1,6 @@
 #!/bin/bash
-# Matthieu PERRIN (eMaintenance) - 2015
+# THIS PLUGIN IS PROVIDED "AS IS", WITHOUT ANY WARRANTY, AND WITHOUT ANY SUPPORT. 
+# Matthieu PERRIN https://fr.linkedin.com/in/perrinmatthieu - 2015
 
 howto()
 {
