@@ -18,9 +18,9 @@
 <tr><td>	(Return code of 127 is out of bounds - plugin may be missing)	</td><td>	Dans les arguments d'une commande remplacer   &#039</td><td>   par   "  	</td></tr>
 <tr><td>	Nagios NRPE: Unable to read output	</td><td>	Droits d'exécution chmod ug+rx /usr/local/nagios/libexec/* chown  nagios:nagios /usr/local/nagios chown nagios:nagios /usr/local/nagios/libexec  –R  Droit visudo nagios ALL=(ALL) NOPASSWD:/usr/local/nagios/libexec/* Defaults:nagios !requiretty  Désactiver SElinux cat /etc/sysconfig/selinux : SELINUX=disabled	</td></tr>
 <tr><td>	CHECK_NRPE: Received 0 bytes from daemon.  Check the remote server logs for error messages.	</td><td>	Dans NSClient il manque l'adresse IP dans les allow_hosts	</td></tr>
-<tr><td>	warning: LI_ALARM bit is set NTP CRITICAL: Server not synchronized	</td><td>	server 10.185.98.21 true restrict 127.0.0.1 fudge   127.127.1.0 stratum 10 driftfile /var/lib/ntp/drift keys /etc/ntp/keys tinker panic 0	</td></tr>
+<tr><td>	warning: LI_ALARM bit is set NTP CRITICAL: Server not synchronized	</td><td>	server 1.1.1.1 true restrict 127.0.0.1 fudge   127.127.1.0 stratum 10 driftfile /var/lib/ntp/drift keys /etc/ntp/keys tinker panic 0	</td></tr>
 <tr><td>	UNKNOWN: No handler for that command	</td><td>	La commande n'est pas défini dans le fichier NSC.ini	</td></tr>
-<tr><td>	Host 2731 unknown ! centAcl.log	</td><td>	http://10.185.98.90/centreon/main.php?p=60101&o=c&host_id=2731 remplir les champs manquants pour creer l'hote, ensuite le désactiver	</td></tr>
+<tr><td>	Host 2731 unknown ! centAcl.log	</td><td>	http://1.1.1.1/centreon/main.php?p=60101&o=c&host_id=2731 remplir les champs manquants pour creer l'hote, ensuite le désactiver	</td></tr>
 <tr><td>	(Return code of 255 is out of bounds)	</td><td>	Le plugin retourne avec le exit code 255 Problème de fonctionnement interne au plugin. Par ex. libraire absente.	</td></tr>
 <tr><td>	Plus de mise a jour des données	</td><td>	SI dans /var/log/syslog ou /var/log/messages : "Dropping packet with future timestamp" Le host n'est plus a l'heure. Problème NTP.	</td></tr>
 <tr><td>	Dans /var/log/maillog Host or domain name not found. Name service error for 	</td><td>	Postfix cherche à résoudre le nom via le DNS sans passer par le systeme. Ajouter "disable_dns_lookups = yes" dans /etc/postfix/main.cf	</td></tr>
