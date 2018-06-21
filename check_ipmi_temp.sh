@@ -1,6 +1,6 @@
 #!/bin/bash
 # THIS PLUGIN IS PROVIDED "AS IS", WITHOUT ANY WARRANTY, AND WITHOUT ANY SUPPORT. 
-# Matthieu PERRIN https://fr.linkedin.com/in/perrinmatthieu - 2016
+# Matthieu PERRIN - 2016
 
 
 #-------------Calcul de code de sortie---------------------------

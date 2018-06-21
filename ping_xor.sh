@@ -1,6 +1,6 @@
 #!/bin/bash
 # THIS PLUGIN IS PROVIDED "AS IS", WITHOUT ANY WARRANTY, AND WITHOUT ANY SUPPORT. 
-# Matthieu PERRIN https://fr.linkedin.com/in/perrinmatthieu - 2014
+# Matthieu PERRIN - 2014
 
 
 [ -z $2 ] && echo -e "Return OK only if a host is up and the other down.\nUsage : $0 IP1 IP2" && exit 3

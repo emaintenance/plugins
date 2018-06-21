@@ -1,6 +1,6 @@
 #!/bin/bash
 # THIS PLUGIN IS PROVIDED "AS IS", WITHOUT ANY WARRANTY, AND WITHOUT ANY SUPPORT. 
-# Matthieu PERRIN https://fr.linkedin.com/in/perrinmatthieu - 2015
+# Matthieu PERRIN - 2015
 
 if [ "$1" == "--help" ]||[ -z "$5" ]; then
    echo "This plugin check if the current OID is less than warning and critical"
